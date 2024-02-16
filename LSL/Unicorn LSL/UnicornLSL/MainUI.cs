@@ -178,7 +178,8 @@ namespace UnicornLSL
                 }
 
                 //close device
-                _device.Dispose();
+                if(_device != null)
+                    _device.Dispose();
                 _device = null;
 
                 //uninitialize lsl

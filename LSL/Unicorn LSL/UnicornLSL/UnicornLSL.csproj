@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UnicornLSL</RootNamespace>
     <AssemblyName>UnicornLSL</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -47,7 +47,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="UnicornDotNet">
-      <HintPath>..\..\..\Lib\UnicornDotNet.dll</HintPath>
+      <HintPath>Resources\Unicorn\UnicornDotNet.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -89,7 +89,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>echo Copying native Unicorn library...
-copy "$(ProjectDir)..\..\..\..\Unicorn CAPI\Lib\Unicorn.dll" "$(TargetDir)"
+copy "$(ProjectDir)Resources\Unicorn\Unicorn.dll" "$(TargetDir)"
 
 echo Copying native LSL library...
 copy "$(ProjectDir)Resources\liblsl-Csharp-1.11\liblsl64.dll" "$(TargetDir)"</PreBuildEvent>
