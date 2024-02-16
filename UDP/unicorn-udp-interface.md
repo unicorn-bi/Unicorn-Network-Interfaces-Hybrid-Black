@@ -101,3 +101,7 @@ Data can be received in any programming language supporting UDP sockets. The Uni
 | VALID | VALID | VALID | VALID |
 
 </p>
+
+## Visual Studio Example
+
+You can build your own Unicorn UDP application based on the [Visual Studio Example](./UnicornUDP/README.md).

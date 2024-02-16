@@ -15,3 +15,7 @@ Available Unicorn devices are listed in the dropdown box in the Unicorn Settings
 ## Receiving data
 
 The labstreaminglayer is supported by a variety of programming languages and applications. Visit the [labstreaminglayer](https://github.com/sccn/labstreaminglayer/) repository for more information.
+
+## Visual Studio Example
+
+You can build your own Unicorn UDP application based on the [Visual Studio Example](./Unicorn%20LSL/README.md).
