@@ -78,6 +78,8 @@ namespace UnicornUDPReceiver
 
 Data can be received in any programming language supporting UDP sockets. The Unicorn UDP Interface sends data packages at a sampling rate of 250 Hz. Each payload consists of data from 17 channels from the Unicorn (8 channels EEG, 3 channels Accelerometer, 3 channels Gyroscope, Battery Level, Counter, Validation) formatted as float. Therefore, every Payload consists of 68 bytes (17 channels * 4 bytes [float]). In the receiving application, the receiving socket has to listen on the port configured in the Unicorn UDP Interface. Whenever a payload holding all 68 bytes is received, it must be converted to a float array. The byte array is structured as following:
 
+<p align="center">
+
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |---|---|---|---|---|---|---|---|
 | EEG 1 | EEG 1 | EEG 1 | EEG 1 | EEG 2 | EEG 2 | EEG 2 | EEG 2 |
@@ -97,3 +99,5 @@ Data can be received in any programming language supporting UDP sockets. The Uni
 | BAT | BAT | BAT | BAT | CNT | CNT | CNT | CNT |
 | 65 | 66 | 67 | 68 |
 | VALID | VALID | VALID | VALID |
+
+</p>
