@@ -8,6 +8,10 @@ The Unicorn UDP Interface is listed in the Unicorn Suite in the “DevTools” s
 
 Available Unicorn devices are listed in the dropdown box in the Unicorn Settings. The list of available devices can be updated by clicking “Refresh”. Enter the IP address of the target machine and a port under the UDP Settings. Select a device from the serial list and click “Open” to connect to the Unicorn. The IP address and port can’t be modified after connecting to a Unicorn. Click “Start” to initiate the data transmission. Click “Stop” to terminate data transmission. Click “Close” to disconnect from the Unicorn and close the UDP socket.
 
+<p align="center">
+<img src="./img/udp1.png" alt="drawing" width="250"/><br/>
+</p>
+
 ## Receiving data in C#
 
 The following example code describes how to receive data from the Unicorn UDP Interface in C#:
