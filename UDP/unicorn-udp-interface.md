@@ -81,9 +81,9 @@ Data can be received in any programming language supporting UDP sockets. The Uni
 <p align="center">
 
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-|---|---|---|---|---|---|---|---|
-| EEG 1 | EEG 1 | EEG 1 | EEG 1 | EEG 2 | EEG 2 | EEG 2 | EEG 2 |
-| 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **EEG 1** | **EEG 1** | **EEG 1** | **EEG 1** | **EEG 2** | **EEG 2** | **EEG 2** | **EEG 2** |
+| **9** | **10** | **11** | **12** | **13** | **14** | **15** | **16** |
 | EEG 3 | EEG 3 | EEG 3 | EEG 3 | EEG 4 | EEG 4 | EEG 4 | EEG 4 |
 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |
 | EEG 5 | EEG 5 | EEG 5 | EEG 5 | EEG 6 | EEG 6 | EEG 6 | EEG 6 |
