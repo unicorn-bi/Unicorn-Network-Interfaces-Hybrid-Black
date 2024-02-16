@@ -7,4 +7,4 @@ The Unicorn UDP Interface is an application that allows users to acquire data fr
 The Unicorn LSL Interface is an application that allows users to acquire data from the Unicorn and forward the data to external applications using the labstreaminglayer.
 
 [Unicorn UDP Interface](UDP/unicorn-udp-interface.md)<br/>
-[Unicorn LSL Interface](LSL/unicorn-lsl-interface)<br/>
+[Unicorn LSL Interface](LSL/unicorn-lsl-interface.md)<br/>
