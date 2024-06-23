@@ -2,7 +2,7 @@
 
 The Unicorn LSL Interface is an application that allows users to acquire data from the Unicorn and forward the data to external applications using the labstreaminglayer.
 
-## Sending data via UDP
+## Sending data via LSL
 
 The Unicorn LSL Interface is listed in the Unicorn Suite in the “DevTools” section. Open the “UnicornLSL.exe” from the folder to start the Unicorn LSL Interface.
 
